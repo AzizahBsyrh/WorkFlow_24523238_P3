@@ -36,7 +36,7 @@ Workflow ini menggunakan **Webhook**, **OpenAI GPT-4o-Mini**, dan **Respond to W
 
   ```json
   {
-    "answer": "{{$json["message"]["content"]}}"
+    "answer": "{{$json['message']['content']}}"
   }
   ```
 
@@ -72,3 +72,4 @@ curl -X POST https://your-n8n-domain/webhook/ask \
 Workflow JSON lengkap tersimpan di **n8n** dan dapat export ulang bila diperlukan.
 
 Cukup bilang saja!
+
