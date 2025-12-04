@@ -70,6 +70,3 @@ curl -X POST https://your-n8n-domain/webhook/ask \
 ## 📦 Struktur File
 
 Workflow JSON lengkap tersimpan di **n8n** dan dapat export ulang bila diperlukan.
-
-Cukup bilang saja!
-
